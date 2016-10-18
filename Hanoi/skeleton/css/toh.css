@@ -1,0 +1,30 @@
+
+ul {
+  float: left;
+  width: 200px;
+  height: 150px;
+  border-bottom: 5px solid black;
+  list-style-type: none;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px;
+}
+
+ul:hover {
+  border-bottom: 5px solid lightgreen;
+}
+
+ul li {
+  height: 35px;
+  width: 50px;
+  background: orange;
+  /* margin-bottom: 10px; */
+  /* margin-left: 10px; */
+  margin: 5px auto;
+}
+
+ul.startIdx {
+  border-bottom: 5px solid lightgreen;
+}

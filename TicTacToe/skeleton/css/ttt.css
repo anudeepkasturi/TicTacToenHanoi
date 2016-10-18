@@ -1,0 +1,52 @@
+* {
+  background: transparent;
+}
+
+.ttt ul li {
+   float: left;
+   width: 90px;
+   height: 90px;
+   border: 5px solid black;
+   background: gray;
+   cursor: pointer;
+   list-style-type: none;
+ }
+
+  .ttt ul li:hover {
+    background: yellow;
+  }
+
+.ttt ul {
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ttt {
+  margin-left: 155px;
+}
+
+.ttt ul .x {
+  background: white;
+}
+
+.ttt ul .o {
+  background: white;
+}
+
+.ttt ul .x:after {
+  content: "X";
+  font-size: 70px;
+  padding-top: 27px;
+  padding-left: 19px;
+  color: red;
+}
+
+.ttt ul .o:after {
+  content: "O";
+  font-size: 70px;
+  padding-top: 27px;
+  padding-left: 19px;
+}
